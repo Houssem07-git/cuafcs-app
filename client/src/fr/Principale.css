@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+.Principale{
+    margin: 0px;
+    padding: 30px;
+    background-image: url(../img/page1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tinos', serif;
+}
+
+.entrer{
+    color: red;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.principale-titres{
+    margin: 25px;
+    color: #fff;
+    width: fit-content;
+    text-align: center;
+    height: 10px;
+    font-family: 'Tinos', serif;
+    font-weight: 100;
+}
+
+.imgs{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80rem;
+}
+
+
+.icons{
+    width: 300px;
+    height: 300px;
+}
+
+.footer-principale{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 80rem;
+}
+
+#cuaf-presentation{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fr-cuaf{
+    color: #0101fc;
+    font-style: italic;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.ar-cuaf{
+    color: #339966;
+    height: 24px;   
+    padding: 17px;
+    font-weight: 100;
+}
+
+#ar-link{
+    border: 4px solid #339966;
+}
+
+#fr-link{
+    border: 4px solid #0101fc;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+#univ{
+    transition: .5s;
+}
+
+#univ:hover{
+    opacity: .5;
+}
+
+.entrer:hover{
+    background-color: rgb(192, 190, 190);
+}

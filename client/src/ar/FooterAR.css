@@ -1,0 +1,50 @@
+.FooterAR{
+    width: 100%;
+    background-color: #000;
+    height: 250px;
+    color: #fff;
+    padding-right: 120px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#footer-pAR{
+    width: fit-content;
+    font-size: 18px;
+    padding-top: 12px;
+    margin-right: 5px;
+}
+
+.socialsAR{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mailAR{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phoneAR{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.socAR{
+    margin-left: 10px;
+}
+
+.socialAR{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}

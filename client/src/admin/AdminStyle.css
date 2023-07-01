@@ -1,0 +1,13 @@
+.admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper{
+    padding: 20px;
+}
+
+.text{
+    margin-bottom: 15px;
+}

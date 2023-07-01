@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.Intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 85px;
+    margin-bottom: 60px;
+}
+
+#uni{
+    width: 450px;
+    height: 250px;
+    transition: .5s;
+}
+
+#cuaf{
+    color: #E74C3C;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.al-azhar{
+    position: relative;
+}
+
+.az{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 20%;
+    left: 4%;
+    width: 420px;
+    z-index: -1;
+}
+
+.cuaflogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -150px;
+}
+
+.Sorbonne{
+    position: relative;
+}
+
+#cuaflogo{
+    width: 200px;
+    height: 200px;
+}
+
+.sor{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 25%;
+    left: 4%;
+    width: 420px;
+    z-index: -1;
+}
+
+#uni:hover{
+    opacity: .2;
+}

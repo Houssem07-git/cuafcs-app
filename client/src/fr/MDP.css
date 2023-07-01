@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap');
+
+.MDP{
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid #AF669E;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 100px 76px 0px 81px;
+    /*background-image: url(./img/ribbon.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;*/
+}
+
+#MDP{
+    font-family: 'Volkhov', serif;
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    font-size: 20px;
+}
+
+#ben{
+    height: 600px;
+    width: 450px;
+    border-radius: 40px;
+}
+
+#ribbon{
+    margin-top: -37px;
+    width: 500px;
+    height: 500px;
+}

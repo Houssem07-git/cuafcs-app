@@ -1,0 +1,36 @@
+.Navbar{
+    position: sticky;
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    padding-left: 80px;
+    top: 1px;
+}
+
+#l{
+    margin-right: 100px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+#b{
+    margin-left: 160px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lang{
+    width: 120px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#l:hover{
+    color: #2980b9;
+}

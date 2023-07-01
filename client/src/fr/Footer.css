@@ -1,0 +1,49 @@
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    height: 230px;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+#footer-p{
+    width: fit-content;
+    font-size: 18px;
+    padding-top: 12px;
+    margin-right: 5px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.soc{
+    margin-left: 10px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}

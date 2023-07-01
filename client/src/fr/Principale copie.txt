@@ -1,0 +1,138 @@
+import React from 'react'
+import './Principale.css'
+import Sorbonne from './img/SRB1.png'
+import cuafcs from './img/cuaf2.png'
+import alazhar from './img/AARV1.png'
+import {Link} from 'react-router-dom'
+
+function Principale() {
+  return (
+    <div className="Principale">
+        <Link to='/Accueil-ar' className="entrer" id="ar-link">أدخل</Link>
+        <h1 className='principale-titres'>مرحبـــا بـــكم فـــي موقـــع </h1>
+        <h1 className='principale-titres'>رابـــطة الجامعـــات العربيـــة و الفرنسيـــة</h1>
+        <h1 className='principale-titres'>للتعـــاون العلمـــي</h1>
+        <div className="imgs">
+            <img src={Sorbonne} alt="sorbonne" className="icons" id="univ"></img>
+            <img src={cuafcs} alt="cuafcs" className="icons"></img>
+            <img src={alazhar} alt="alazhar" className="icons" id="univ"></img>
+        </div>
+        <h1 className='principale-titres'>Bienvenue au site de la</h1>
+        <h1 className='principale-titres'>Coordination des universités arabes et françaises</h1>
+        <h1 className='principale-titres'>pour la coopération scientifique</h1>
+        <div className="footer-principale">
+            <h3 className="fr-cuaf">CUAF</h3>
+            <Link to='/Acceuil-fr' className="entrer" id="fr-link">Entrée</Link>
+            <h3 className="ar-cuaf">كــواف</h3>
+        </div>
+    </div>
+  )
+}
+
+/*function CustomLink({to, children, ...props}){
+    return(
+        <Link to={to} {...props}>
+            {children}
+        </Link>
+    )
+}*/
+
+export default Principale
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+.Principale{
+    margin: 0px;
+    padding: 30px;
+    background-image: url(./img/page1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tinos', serif;
+}
+
+.entrer{
+    color: red;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.principale-titres{
+    color: #fff;
+    width: fit-content;
+    text-align: center;
+    height: 10px;
+    font-family: 'Tinos', serif;
+    font-weight: 100;
+}
+
+.imgs{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80rem;
+}
+
+
+.icons{
+    width: 300px;
+    height: 300px;
+}
+
+.footer-principale{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 80rem;
+}
+
+h3{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fr-cuaf{
+    color: #0101fc;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.ar-cuaf{
+    color: #339966;
+    font-size: 25px;
+    height: 24px;   
+    font-weight: 100;
+}
+
+#ar-link{
+    border: 4px solid #339966;
+}
+
+#fr-link{
+    border: 4px solid #0101fc;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+#univ{
+    transition: .5s;
+}
+
+#univ:hover{
+    opacity: .5;
+}
+
+.entrer:hover{
+    background-color: rgb(192, 190, 190);
+}

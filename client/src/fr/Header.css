@@ -1,0 +1,29 @@
+.Header{
+    background-image: url(../img/page1.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+    padding-right: 70px;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+}
+
+.fr{
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.ar{
+    color: #fff;
+    text-align: center;
+}

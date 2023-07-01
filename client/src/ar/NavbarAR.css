@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+.NavbarAR{
+    position: sticky;
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    top: 1px;
+    font-family: 'Tinos', serif;
+}
+
+.navbar3{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 400px; 
+}
+
+.dropdown-btn{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    background-color: #2c3e50;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    position: absolute;
+    top: 100%;
+    left: 52%;
+}
+
+/*.dropdown-item{
+    border-bottom: 1px solid #fff;
+    text-align: right;
+    width: 91%;
+    padding: 7px;
+    cursor: pointer;
+    transition: .2s;
+}*/
+
+.dropdown-item{
+    display:flex;
+    align-items: baseline;
+    gap:10px;
+}
+
+.items{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+#lAR{
+    margin-left: 65px;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    transition: .2s;
+}
+
+#bAR{
+    /*margin-right: 100px;*/
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.navbar2{
+    display: flex;
+    align-items: center;
+    margin-left: -310px;
+    
+}
+
+.langAR{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lAR:hover{
+    color: #2980b9;
+}
+
+.dropdown-item:hover{
+    opacity: .5;
+}

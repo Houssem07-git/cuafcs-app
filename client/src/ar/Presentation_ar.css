@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+.containerAR{
+    padding: 0px 50px 0px 50px;
+    font-size: 26px;
+    text-align: right;
+    font-family: 'Tinos', serif;
+}
+
+#light-icon{
+    width: 50px;
+    height: 100px;
+}
+
+.containerAR h2{
+    font-size: 30px;
+}
+
+.prAR{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.containerAR p{
+    width: 98%;
+    margin-left: 10px;
+    text-align: right;
+}
